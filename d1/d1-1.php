@@ -10,7 +10,6 @@
 				$maxCalorieCount = $calorieCount;
 			}
 			$calorieCount = 0;
-			echo $maxCalorieCount . "\n";
 		} else {
 			$calorieCount += (int)$row;
 		}
